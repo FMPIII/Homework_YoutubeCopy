@@ -1,0 +1,106 @@
+body {
+  /* background-image: url("./images/mountains.jpg"); */
+  color: grey;
+}
+
+a{
+  color:grey;
+}
+.fa-youtube{
+color:red;
+}
+
+.TopLineSearch{
+  display: flex;
+  margin: 20px 0;
+  /* margin: 7px; */
+  RightSideBlock
+}
+
+.YTLogo{
+  padding: 0 15px;
+}
+
+.search{
+  flex-grow: 1.5;
+  border-left: 1px solid grey;
+  padding: 0 20px;
+}
+
+.UserProfile{
+  border-right: 1px solid grey;
+  padding: 0 30px;
+}
+
+.Upload{
+  padding: 0 30px;
+}
+
+  /* ******************************************** */
+.LeftSideGuide{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-top: 60px;
+    padding: 10px;
+  }
+.menu-item{
+  padding: 15px 15px;
+}
+
+/* *********************************************** */
+.RightSideBlock{
+  width: 70%;
+  display: inline-block;
+}
+
+.VideoScreen>img{
+  width: 100%
+}
+
+.TitleAndViews{
+  display: flex;
+  width: 100%;
+  padding: 0 15px;
+  justify-content: space-between;
+  position: relative;
+  left: -19px;
+  margin-bottom: 20px;
+  /* top: -16px; */
+}
+
+/* .ViewNumbers{
+  position: relative;
+  left: -56px
+  top: 20px;
+} */
+
+.AllComments{
+  padding: 100px 0;
+}
+
+.Comment1{
+  background-color: lightgrey;
+}
+
+.ProfileName{
+  left: 23px;
+  top: -15px;
+  position: relative;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.VideoComment{
+  left: 23px;
+  top: -27px;
+  position: relative;
+  color: black
+}
+
+.Thumbs{
+  left: 23px;
+  top: -31px;
+  position: relative;
+}
